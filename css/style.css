@@ -672,8 +672,13 @@ body{
 /* --------------------------- */
 
 @media (max-width: 767.98px) {
+	.experts {
+		padding: 75px 15px 60px;
+	}
+
 	.statistics-experts {
 		width: 320px;
+		margin-bottom: 50px;
 	}
 
 	.statistics-experts__block {
@@ -852,6 +857,10 @@ body{
 }
 
 @media (max-width: 991.98px) {
+	.healthcare {
+		padding: 40px 0 10px;
+	}
+
 	.healthcare__body {
 		flex-direction: column;
 		align-items: center;
